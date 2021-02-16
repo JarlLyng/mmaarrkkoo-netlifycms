@@ -8,7 +8,7 @@
 
 <page-query>
 query {
-  posts: allPost(filter: { tags: { id: {in: "Design"} }}) {
+  posts: allPost(filter: { tags: { id: {in: "Letters"} }}) {
     edges {
       node {
         id
@@ -42,7 +42,7 @@ export default {
     PostCard,
   },
   metaInfo: {
-    title: "Design",
+    title: "Letters",
   },
 };
 </script>

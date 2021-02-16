@@ -1,17 +1,19 @@
 <template>
   <div>
     <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
+      <button class="dropbtn">Menu</button>
       <div class="dropdown-content">
         <g-link to="/design/">Design</g-link>
-        <a href="https://www.instagram.com/visualtuba/">Instagram</a>
+        <g-link to="/art/">Art</g-link>
+        <g-link to="/letters/">Letters</g-link>
+        <a href="https://www.instagram.com/visualtuba/" target="_blank">Instagram</a>
       </div>
     </div>
-    <a href="https://www.instagram.com/visualtuba/">Instagram</a>
+    <a href="https://www.instagram.com/visualtuba/" target="_blank">Instagram</a>
   </div>
 </template>
 
-<style>
+<style lang="scss">
 .dropbtn {
   background-color: #4caf50;
   color: white;

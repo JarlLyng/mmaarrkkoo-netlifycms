@@ -2,14 +2,9 @@
   <div id="app">
     <header class="header">
       <Nav />
-      <div class="header__left">
-        <Logo v-if="showLogo" />
-      </div>
-      
-      <div class="header__right">
         <ToggleTheme />
-      </div>
     </header>
+    <Logo v-if="showLogo" />
 
     <main class="main">
       <slot />
